@@ -1,5 +1,5 @@
 <?php
-include 'config/koneksi.php';
+include 'koneksi.php';
 $menus = mysqli_query($conn, "SELECT * FROM menu LIMIT 6");
 ?>
 <!DOCTYPE html>
