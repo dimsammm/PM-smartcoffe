@@ -14,6 +14,7 @@ $menus = mysqli_query($conn, "SELECT * FROM menu LIMIT 6");
 <header class="navbar">
 <div class="container">
 <div class="logo">☕ SmartCoffe</div>
+<p class="tagline">Temukan cita rasa kopi favoritmu di sini.</p>
 <nav>
 <ul>
 <li><a href="index.php" class="active">Home</a></li>
