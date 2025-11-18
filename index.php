@@ -54,6 +54,7 @@ $menus = mysqli_query($conn, "SELECT * FROM menu LIMIT 6");
 
     <footer>
         <p>©️ 2025 SmartCoffe | Crafted with ❤️ by Tim SmartCoffe</p>
+        <p>Update by Wayan Wisnu</p>
     </footer>
 </body>
 
