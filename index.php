@@ -36,7 +36,11 @@ $menus = mysqli_query($conn, "SELECT * FROM menu LIMIT 6");
 
 <section class="menu-section">
 <div class="container">
+<<<<<<< HEAD
 <h2>Menu Populer - Widari</h2>
+=======
+<h2>Menu Populer Dimsammm Bakar</h2>
+>>>>>>> 18a1ef625a55bc083d30c951514475767a3a3abe
 <div class="menu-grid">
 <?php while ($row = mysqli_fetch_assoc($menus)) : ?>
 <div class="menu-card">
