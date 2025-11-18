@@ -30,6 +30,9 @@ $menus = mysqli_query($conn, "SELECT * FROM menu LIMIT 6");
 <div class="hero-content">
 <h1>Rasakan Aroma & Kenikmatan Kopi Terbaik</h1>
 <p>SmartCoffe menghadirkan pengalaman ngopi yang tak terlupakan. Pilih kopi favoritmu dan pesan langsung!</p>
+<!-- Tambahan dari Dimas: Skema 2 -->
+<p>Fitur baru ditambahkan oleh Dimas.</p>
+
 <a href="menu.php" class="btn-primary">Lihat Menu</a>
 </div>
 </section>
