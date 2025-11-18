@@ -27,19 +27,24 @@ $menus = mysqli_query($conn, "SELECT * FROM menu LIMIT 6");
         </div>
     </header>
 
+    <!-- Bagian HERO digabung: HEAD + tambahan dari Dimas -->
     <section class="hero">
         <div class="hero-content">
             <h1>Rasakan Aroma & Kenikmatan Kopi Terbaik</h1>
             <p>SmartCoffe menghadirkan pengalaman ngopi yang tak terlupakan. Pilih kopi favoritmu dan pesan langsung!
             </p>
+
+            <!-- Tambahan dari Dimas -->
+            <p>Fitur baru ditambahkan oleh Dimas.</p>
+
             <a href="menu.php" class="btn-primary">Lihat Menu</a>
         </div>
     </section>
 
+    <!-- Bagian judul menu digabung: HEAD + Dimas + Wisnu -->
     <section class="menu-section">
         <div class="container">
-            <!-- Menggabungkan tulisan HEAD dan Wayan_Wisnu -->
-            <h2>Menu Populer (Rekomendasi Wisnu)</h2>
+            <h2>Menu Populer (Rekomendasi Tim SmartCoffe)</h2>
 
             <div class="menu-grid">
                 <?php while ($row = mysqli_fetch_assoc($menus)) : ?>
@@ -56,11 +61,7 @@ $menus = mysqli_query($conn, "SELECT * FROM menu LIMIT 6");
 
     <footer>
         <p>©️ 2025 SmartCoffe | Crafted with ❤️ by Tim SmartCoffe</p>
-<<<<<<< HEAD
-        <P>Update by Wisnu</P>
-=======
-        <p>Update by Wayan Wisnu</p>
->>>>>>> Wayan_Wisnu
+        <p>Update by Wisnu & Dimas</p>
     </footer>
 </body>
 
